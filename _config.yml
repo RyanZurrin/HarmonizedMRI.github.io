@@ -34,7 +34,7 @@ plugins:
 
 # Keep specific files and directories from being deleted during the build process
 # Want to keep assets and all contents
-keep_files:
+keep_files: [assets]
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

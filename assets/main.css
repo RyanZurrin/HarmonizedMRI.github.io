@@ -743,3 +743,117 @@ table td {
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* Header styling */
+.site-header {
+  background-color: #c2def8;
+  padding: 10px 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Distribute space between logo and menu */
+}
+
+.site-logo img {
+  max-height: 50px; /* Adjust the size of the logo */
+  margin-right: 20px;
+}
+
+.site-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: auto; /* Push the navigation menu to the right */
+}
+
+.site-nav {
+  margin-left: auto; /* Push the navigation menu to the right */
+  font-size: 18px;
+}
+
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav ul li {
+  display: inline;
+}
+
+.site-nav ul li a {
+  text-decoration: none;
+  color: #333; /* Adjust as needed */
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+.site-nav ul li a:hover {
+  color: #007bff; /* Adjust as needed */
+}
+
+/* Existing styles ... */
+
+/* New CSS for project list, search, and filter */
+#filterContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#searchBox,
+#categoryFilter {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#searchBox {
+  flex: 2;
+  margin-right: 10px;
+}
+
+#categoryFilter {
+  flex: 1;
+}
+
+#projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-item {
+  flex: 1 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-item img {
+  width: 150px; /* Adjust this value as needed */
+  height: 150px; /* Adjust this value as needed */
+  object-fit: contain; /* Ensure the image fits within the specified dimensions without distortion */
+  margin-bottom: 10px;
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

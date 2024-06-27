@@ -25,7 +25,7 @@
       <img src="/assets/logos/Pulseq.png" alt="Harmonized MRI" />
     </a>
 
-    <a class="site-title" rel="author" href="/">Pulseq MRI protocols</a><nav class="site-nav">
+    <!-- <a class="site-title" rel="author" href="/">Pulseq MRI protocols</a> --><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -50,15 +50,24 @@
   }
 </style>
 
-<article class="post"><h1 class="page-heading">Projects</h1><div class="post-content"><h3> <u> Pulseq interpreters </u> </h3>
-<div class="container">
-    
+<article class="post"><h1 class="page-heading">Projects</h1><div class="post-content"><p><input type="text" id="searchBox" placeholder="Search projects..." />
+<select id="categoryFilter">
+    <option value="all">All Categories</option>
+    <option value="Pulseq interpreter">Pulseq interpreter</option>
+    <option value="Sequence programming">Sequence programming</option>
+    <option value="Image reconstruction">Image reconstruction</option>
+</select></p>
+
+<div id="projectList">
+    <h3><u>Pulseq interpreters</u></h3>
+    <div class="container">
         
-    
+            
         
-    
+            
         
-            <div class="project-item" data-category="Pulseq interpreter">
+            
+                <div class="project-item" data-category="Pulseq interpreter">
   <!-- Display logo if present, as link. Otherwise, display title. -->
   
   <a href="https://toppemri.github.io/"><img src="/assets/logos/Pulseq_GE_logo.png" alt="Pulseq on GE Logo" /></a>
@@ -67,18 +76,17 @@
   <p>An updated Pulseq interpreter for GE scanners. Compatible with most software versions from DV26 to MR30.2.</p>
 </div>
 
+            
         
-    
+            
         
-    
-</div>
+    </div>
 
-<p><br /></p>
-<h3> <u> Pulse sequences and sequence development tools </u> </h3>
-<div class="container">
-    
+    <h3><u>Pulse sequences and sequence development tools</u></h3>
+    <div class="container">
         
-            <div class="project-item" data-category="Sequence programming, Image reconstruction, fMRI">
+            
+                <div class="project-item" data-category="Sequence programming, Image reconstruction, fMRI">
   <!-- Display logo if present, as link. Otherwise, display title. -->
   
   <a href="https://github.com/HarmonizedMRI/SMS-EPI"><img src="/assets/logos/hmri_nielsen.png" alt="SMS-EPI fMRI Logo" /></a>
@@ -87,10 +95,10 @@
   <p>A Pulseq SMS-EPI fMRI sequence and reconstruction protocol, suitable for multi-site, multi-vendor studies.</p>
 </div>
 
+            
         
-    
-        
-            <div class="project-item" data-category="Sequence programming, Image reconstruction, Diffusion">
+            
+                <div class="project-item" data-category="Sequence programming, Image reconstruction, Diffusion">
   <!-- Display logo if present, as link. Otherwise, display title. -->
   
   <a href="https://github.com/HarmonizedMRI/Pulseq-diffusion"><img src="/assets/logos/diff_liu.png" alt="Pulseq-diffusion Logo" /></a>
@@ -99,20 +107,19 @@
   <p>MatLab code to create diffusion EPI sequences to be run using the Pulseq sequence programming environment</p>
 </div>
 
+            
         
-    
+            
         
-    
+            
         
-    
-</div>
+    </div>
 
-<p><br /></p>
-<h3> <u> Image reconstruction </u> </h3>
-<div class="container">
-    
+    <h3><u>Image reconstruction</u></h3>
+    <div class="container">
         
-            <div class="project-item" data-category="Sequence programming, Image reconstruction, fMRI">
+            
+                <div class="project-item" data-category="Sequence programming, Image reconstruction, fMRI">
   <!-- Display logo if present, as link. Otherwise, display title. -->
   
   <a href="https://github.com/HarmonizedMRI/SMS-EPI"><img src="/assets/logos/hmri_nielsen.png" alt="SMS-EPI fMRI Logo" /></a>
@@ -121,10 +128,10 @@
   <p>A Pulseq SMS-EPI fMRI sequence and reconstruction protocol, suitable for multi-site, multi-vendor studies.</p>
 </div>
 
+            
         
-    
-        
-            <div class="project-item" data-category="Sequence programming, Image reconstruction, Diffusion">
+            
+                <div class="project-item" data-category="Sequence programming, Image reconstruction, Diffusion">
   <!-- Display logo if present, as link. Otherwise, display title. -->
   
   <a href="https://github.com/HarmonizedMRI/Pulseq-diffusion"><img src="/assets/logos/diff_liu.png" alt="Pulseq-diffusion Logo" /></a>
@@ -133,27 +140,18 @@
   <p>MatLab code to create diffusion EPI sequences to be run using the Pulseq sequence programming environment</p>
 </div>
 
+            
         
-    
+            
         
-    
+            
         
-    
+    </div>
+
 </div>
 
-<!--
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihbeQVhsdXR-DR-NmH47bP7vMPda_eimgw8BsU0gKQaa0_LZHY88DFh1ZMXmKFDE1Zn4Af6MNmpAo0EpIG8ma5Lw-G5IxDyPwiU=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbeQVhsdXR-DR-NmH47bP7vMPda_eimgw8BsU0gKQaa0_LZHY88DFh1ZMXmKFDE1Zn4Af6MNmpAo0EpIG8ma5Lw-G5IxDyPwiU=s1600-rw-v1" /> </a>
--->
+<script src="/assets/js/search.js"></script>
 
-<!--
-<img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbeQVhsdXR-DR-NmH47bP7vMPda_eimgw8BsU0gKQaa0_LZHY88DFh1ZMXmKFDE1Zn4Af6MNmpAo0EpIG8ma5Lw-G5IxDyPwiU=s1600-rw-v1" />
-
-<img src="https://drive.google.com/uc?id=1NXFqofC68pAttkQpm6i21V2PRj2JUJ01&export=view" />
-<img src="https://drive.google.com/uc?id=1NXFqofC68pAttkQpm6i21V2PRj2JUJ01" />
-<img src="https://drive.usercontent.google.com/download?id=1NXFqofC68pAttkQpm6i21V2PRj2JUJ01"/>
-<img src="https://lh3.googleusercontent.com/drive-viewer/uc?id=1NXFqofC68pAttkQpm6i21V2PRj2JUJ01"/>
-<img src="https://drive.google.com/file/d/1NXFqofC68pAttkQpm6i21V2PRj2JUJ01/view?usp=sharing"/>
--->
 </div>
 </article>
 

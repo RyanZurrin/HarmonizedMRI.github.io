@@ -1,9 +1,22 @@
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
   margin: 0;
   padding: 0;
 }
@@ -12,7 +25,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -29,9 +44,19 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
 .highlight {
   margin-bottom: 15px;
 }
@@ -65,7 +90,8 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
+ul,
+ol {
   margin-left: 30px;
 }
 
@@ -77,7 +103,12 @@ li > ol {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 400;
 }
 
@@ -165,7 +196,8 @@ pre > code {
 /**
  * Clearfix
  */
-.footer-col-wrapper:after, .wrapper:after {
+.footer-col-wrapper:after,
+.wrapper:after {
   content: "";
   display: table;
   clear: both;
@@ -201,7 +233,8 @@ table {
 table tr:nth-child(even) {
   background-color: #f7f7f7;
 }
-table th, table td {
+table th,
+table td {
   padding: 10px 15px;
 }
 table th {
@@ -231,7 +264,8 @@ table td {
   margin-bottom: 0;
   float: left;
 }
-.site-title, .site-title:visited {
+.site-title,
+.site-title:visited {
   color: #424242;
 }
 
@@ -262,7 +296,7 @@ table td {
     border-radius: 5px;
     text-align: right;
   }
-  .site-nav label[for=nav-trigger] {
+  .site-nav label[for="nav-trigger"] {
     display: block;
     float: right;
     width: 36px;
@@ -550,7 +584,7 @@ table td {
   color: #008080;
 }
 .highlight .nb {
-  color: #0086B3;
+  color: #0086b3;
 }
 .highlight .nc {
   color: #458;
@@ -647,3 +681,180 @@ table td {
 }
 
 /*# sourceMappingURL=main.css.map */
+/* Existing styles ... */
+
+/* New CSS for project list, search, and filter */
+#filterContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#searchBox,
+#categoryFilter {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#searchBox {
+  flex: 2;
+  margin-right: 10px;
+}
+
+#categoryFilter {
+  flex: 1;
+}
+
+#projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-item {
+  flex: 1 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-item img {
+  width: 150px; /* Adjust this value as needed */
+  height: 150px; /* Adjust this value as needed */
+  object-fit: contain; /* Ensure the image fits within the specified dimensions without distortion */
+  margin-bottom: 10px;
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.site-header {
+  background-color #f8f9fa; /* Adjust as needed */
+  padding: 10px 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Distribute space between logo and menu */
+}
+
+.site-logo img {
+  max-height: 50px; /* Adjust the size of the logo */
+  margin-right: 20px;
+}
+
+.site-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: auto; /* Push the navigation menu to the right */
+}
+
+.site-nav {
+  margin-left: auto; /* Push the navigation menu to the right */
+  font-size: 18px;
+}
+
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav ul li {
+  display: inline;
+}
+
+.site-nav ul li a {
+  text-decoration: none;
+  color: #333; /* Adjust as needed */
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #007bff; /* Adjust as needed */
+  font-size: 20px; /* Adjust as needed */
+}
+
+/* Existing styles ... */
+
+/* New CSS for project list, search, and filter */
+#filterContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#searchBox,
+#categoryFilter {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#searchBox {
+  flex: 2;
+  margin-right: 10px;
+}
+
+#categoryFilter {
+  flex: 1;
+}
+
+#projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-item {
+  flex: 1 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-item img {
+  width: 150px; /* Adjust this value as needed */
+  height: 150px; /* Adjust this value as needed */
+  object-fit: contain; /* Ensure the image fits within the specified dimensions without distortion */
+  margin-bottom: 10px;
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
