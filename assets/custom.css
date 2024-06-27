@@ -1,3 +1,6 @@
+/* Existing styles ... */
+
+/* New CSS for project list, search, and filter */
 #filterContainer {
   display: flex;
   justify-content: space-between;
@@ -47,9 +50,9 @@
 }
 
 .project-item img {
-  width: 100px; /* Default size, will be adjusted by JavaScript */
-  height: 100px; /* Default size, will be adjusted by JavaScript */
-  object-fit: contain;
+  width: 150px; /* Adjust this value as needed */
+  height: 150px; /* Adjust this value as needed */
+  object-fit: contain; /* Ensure the image fits within the specified dimensions without distortion */
   margin-bottom: 10px;
 }
 

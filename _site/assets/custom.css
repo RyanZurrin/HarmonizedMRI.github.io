@@ -1,3 +1,6 @@
+/* Existing styles ... */
+
+/* New CSS for project list, search, and filter */
 #filterContainer {
   display: flex;
   justify-content: space-between;
@@ -47,13 +50,61 @@
 }
 
 .project-item img {
-  width: 100px; /* Default size, will be adjusted by JavaScript */
-  height: 100px; /* Default size, will be adjusted by JavaScript */
-  object-fit: contain;
+  width: 150px; /* Adjust this value as needed */
+  height: 150px; /* Adjust this value as needed */
+  object-fit: contain; /* Ensure the image fits within the specified dimensions without distortion */
   margin-bottom: 10px;
 }
 
 .project-item:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Existing styles ... */
+
+/* Header styling */
+.site-header {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the left */
+}
+
+.site-logo img {
+  max-height: 50px; /* Adjust the size of the logo */
+  margin-right: 20px;
+}
+
+.site-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: auto; /* Push the navigation menu to the right */
+}
+
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav ul li {
+  display: inline;
+}
+
+.site-nav ul li a {
+  text-decoration: none;
+  color: #333; /* Adjust as needed */
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+.site-nav ul li a:hover {
+  color: #007bff; /* Adjust as needed */
 }

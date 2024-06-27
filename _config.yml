@@ -33,7 +33,8 @@ plugins:
   - jekyll-feed
 
 # Keep specific files and directories from being deleted during the build process
-keep_files: [assets]
+# Want to keep assets and all contents
+keep_files:
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded", function () {
       const height = image.naturalHeight;
 
       if (width > height) {
-        image.style.width = "100px"; // Adjust this value as needed
+        image.style.width = "150px"; // Adjust this value as needed
         image.style.height = "auto";
       } else {
         image.style.width = "auto";
-        image.style.height = "100px"; // Adjust this value as needed
+        image.style.height = "150px"; // Adjust this value as needed
       }
     };
   });

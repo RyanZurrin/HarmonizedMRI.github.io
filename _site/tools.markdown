@@ -5,4 +5,3 @@
         {% include project.html %}
     {% endfor %}
 </div>
-

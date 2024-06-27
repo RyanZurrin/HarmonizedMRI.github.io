@@ -6,8 +6,8 @@ permalink: /fMRI/
 
 We in the HarmonizedMRI study team have developed a Pulseq fMRI protocol
 for harmonized multi-site, multi-vendor studies,
-and **we are actively looking for early adopters**! 
-To contact the study team, please fill out 
+and **we are actively looking for early adopters**!
+To contact the study team, please fill out
 [this Google form](https://forms.gle/9NLQMSeQwVRr6CDr6)
 and we will help you get started.
 
@@ -19,7 +19,6 @@ For more information, see the following talk and flyer:
 -->
 
 <img src="/assets/banner.png" alt="Harmonized fMRI project overview" />
-
 
 <!--
 We also welcome you to post your questions on our
