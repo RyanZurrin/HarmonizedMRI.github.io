@@ -746,7 +746,7 @@ table td {
 
 /* Header styling */
 .site-header {
-  background-color #f8f9fa; /* Adjust as needed */
+  background-color: #c2def8;
   padding: 10px 0;
 }
 
@@ -791,9 +791,8 @@ table td {
   transition: color 0.3s ease;
 }
 
-a:hover {
+.site-nav ul li a:hover {
   color: #007bff; /* Adjust as needed */
-  font-size: 20px; /* Adjust as needed */
 }
 
 /* Existing styles ... */
