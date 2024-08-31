@@ -15,6 +15,8 @@ SCOPES = ['https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/a
 
 # Google Sheet ID and range
 SHEET_ID = '1U2Zb02QuRa4d4RHFzojFrGakkJk3K-S2LfTTm7LaMLM'
+
+# SHEET_ID = '1s9nLnwGYtpg5Djc2GMCPq2rG4mlq_Ngy6_uGgBuvdII'
 RANGE_NAME = 'Form Responses 1!A:G'  # Adjust according to your sheet structure
 
 # Destination folder for logos
