@@ -4,6 +4,7 @@ timestamp,title,contact,url,category,description,logo,featured
 7/27/2024 15:28:27,Pulseq on GE,jfnielse@umich.edu,https://toppemri.github.io,Pulseq interpreter,An updated Pulseq interpreter for GE scanners. Compatible with most software versions from DV26 to MR30.2.,/assets/logos/Pulseq_GE_logo.png,False
 8/31/2024 6:51:07,Test,jfnielsen@gmail.com,https://toppemri.github.io,"Sequence programming, Pulseq interpreter",test project,/assets/logos/Test.png,False
 9/1/2024 22:47:22,Pulseq Test Project,rzurrin@gmail.com,ryanzurin@gmail.com,"Image reconstruction, Pulseq interpreter, fMRI, 13C/MNS",this is a test project,/assets/logos/Pulseq_Test_Project.png,False
-9/2/2024 11:27:34,Testing 123,ryanzurrin@hotmail.com,https://ryanzurrin.com,"Simulations, Protocol workflow, fMRI",testing google drive logo permissions on new image uploads,/assets/logos/Testing_123.png,false
-9/3/2024 22:47:47,Testing Classic Token,rzurrin@gmail.com,https://ryanzurrin.com,"Image reconstruction, Protocol workflow, Diffusion",Testing new token.,/assets/logos/Testing_Classic_Token.png,false
-9/3/2024 22:49:50,Testing 2,ryanzurrin@hotmail.com,https://ryanzurrin.com,"Sequence programming, Simulations, Protocol workflow, Pulseq interpreter, fMRI, Diffusion",Testing unique project identifiers,/assets/logos/Testing_2.png,false
+9/2/2024 11:27:34,Testing 123,ryanzurrin@hotmail.com,https://ryanzurrin.com,"Simulations, Protocol workflow, fMRI",testing google drive logo permissions on new image uploads,/assets/logos/Testing_123.png,False
+9/3/2024 22:47:47,Testing Classic Token,rzurrin@gmail.com,https://ryanzurrin.com,"Image reconstruction, Protocol workflow, Diffusion",Testing new token.,/assets/logos/Testing_Classic_Token.png,False
+9/3/2024 22:49:50,Testing 2,ryanzurrin@hotmail.com,https://ryanzurrin.com,"Sequence programming, Simulations, Protocol workflow, Pulseq interpreter, fMRI, Diffusion",Testing unique project identifiers,/assets/logos/Testing_2.png,False
+9/4/2024 17:20:30,testing automation,ryzn@gmail.com,https://yes.com,"Sequence programming, Simulations, fMRI",test project 2,/assets/logos/testing_automation.png,false
